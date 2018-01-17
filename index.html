@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EL Laboratories</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+
+<script>
+
+
+$(document).ready(function(){
+   var scroll_start = 0;
+   var startchange = $('#startchange');
+   var offset = startchange.offset();
+    if (startchange.length){
+   $(document).scroll(function() {
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $(".bg-dark").css('background-color', '#f0f0f0');
+       } else {
+          $('.bg-dark').css('background-color', 'white');
+       }
+   });
+    }
+});
+
+</script>
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-transparent">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/EL.png" height="80px" alt=""></a>
+
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ourwork.html">Our Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ourservices.html">Our Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <!-- Navigation ends -->
+    <header class = "mt-5">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="4000">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below -->
+          <div class="carousel-item active" style="background-image: url('images/For Website/carousel1.png')">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>A strong tradition of pharmaceutical excellence</h1>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('images/For Website/carousel2.png')">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>A trusted partner in pharmaceutical manufacturing</h1>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below -->
+          <div class="carousel-item" style="background-image: url('images/For Website/carousel3.png')">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 style ="">Committed adherence to GMP</h1>
+
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+    <!-- Page Content -->
+    <div class="container-fluid" >
+      <br>      <br>
+
+
+      <!-- Marketing Icons Section -->
+
+      <div class="row">
+
+        <div class="col-lg-5 offset-lg-1">
+          <div class="card">
+
+          <img class="img-responsive rounded mb-4 cardphoto" src="images/For Website/front.jpg" alt="">
+        </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="card h-100">
+
+            <h4 class="card-header white">Our Vision</h4>
+
+            <div class="card-body">
+              <p class="card-text-big">To be the trusted partner of choice of pharmaceutical companies for contract manufacturing their specialty high value products.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+      <hr>
+      <br>
+
+      <div class="row">
+
+
+        <div class="col-lg-5 mb-12 offset-lg-1">
+          <div class="card h-100">
+            <h4 class="card-header white">Our Mission</h4>
+            <div class="card-body">
+              <p class="card-text-big">To provide progressive solutions to the manufacturing needs of industrial pharmaceutical companies through proactive research, industry pharmacy expertise, advanced manufacturing processes, and highly qualified personnel. </p>
+            </div>
+            <div class="card-footer">
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 ">
+          <div class="card">
+
+          <img class="img-responsive rounded mb-4 coverphoto" src="images/For Website/mission.jpg" alt="">
+        </div>
+        </div>
+      </div>
+
+      <!-- /.row -->
+      <br>
+      <hr>
+
+      <br>
+      <!-- Features Section -->
+      <div class="row">
+        <div class="col-lg-5 offset-lg-1">
+          <h1 class="card-header white">Proud Manufacturer</h1>
+          <div class="card-body">
+          <p>EL Laboratories is a proud manufacturer of:</p>
+          <ul>
+            <li>Oral Cephalosphorins</li>
+            <li>Oral Liquids</li>
+            <li>Oral Non-Penicillins</li>
+            <li>Small Volume Parenterals</li>
+            <li>Opthalmic and Otic Preparations</li>
+          </ul>
+          <a href="ourservices.html" class="btn btn-primary">Learn More</a>
+        </div>
+        </div>
+        <div class="col-lg-5">
+          <img class="img-fluid rounded" src="images/For Website/Products.jpg" alt="">
+        </div>
+      </div>
+      <!-- /.row -->
+      <br>
+      <hr>
+      <br>
+
+      <!-- Call to Action Section -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy;EL Laboratories and Benjamin Buensuceso, 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,148 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+  font-family: roboto;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.card-center {
+  text-align: center;
+}
+.img-circle{border-radius:50%}
+
+.custom-img {
+  width: 100%;
+  height:40%;
+
+}
+.carousel-item {
+  height: 80vh;
+  min-height: 300px;
+  background: no-repeat center scroll;
+  background-size: 100% 65vh;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+/* Tabs panel */
+.tabbable-panel {
+  border:1px solid #eee;
+  padding: 10px;
+}
+
+.description {
+  text-justify: inter-word;
+  text-align: justify;
+  font-size:1.2em;
+}
+
+.coverphoto {
+  max-width:100vh;
+  max-height:100%;
+  width:100%;
+}
+
+.cardphoto {
+  max-width:100%;
+  max-height:100%;
+  width:100%;
+}
+
+
+.helper {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.card-img-top-adjusted {
+  height: 50vh;
+  width: 100%;
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px)
+}
+
+.card-img-div {
+  height:150px;
+  border: 1px solid rgba(1,1,1,.1);
+}
+
+.card-img-div img {
+    display : block;
+    margin : auto;
+    vertical-align: middle;
+    height:80%;
+}
+
+.helper {
+    display: inline-block;
+    height: 25%;
+    vertical-align: middle;
+}
+
+.centered {
+  text-align:center;
+}
+
+.card-text {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size:1em;
+  color:rgb(95,95,95);
+
+}
+
+.card-text-big {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size:1.1em;
+  color:rgb(95,95,95);
+
+}
+
+.card-header {
+  font-size:2em;
+  color: rgb(4, 3, 128);
+}
+
+.second-navbar {
+  padding-top:50px;
+}
+
+.services {
+  height:300px;
+}
+
+.navbar-nav > li > a {padding-top:5px !important; padding-bottom:5px !important;}
+.navbar {
+  height:6  0px;
+  min-height:32px !important
+}
+
+a.nav-link {
+  font-size:1.1em;
+}
+
+.blue {
+  color: rgb(4, 3, 128);
+}
+
+
+.white {
+  color: white;
+}
