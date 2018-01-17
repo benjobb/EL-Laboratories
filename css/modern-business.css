@@ -4,9 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
  */
 
-body {
+html, body {
   padding-top: 54px;
-  font-family: roboto;
+  font-family: arial;
+  height:100%;
+
 }
 
 @media (min-width: 992px) {
@@ -40,6 +42,19 @@ body {
 .portfolio-item {
   margin-bottom: 30px;
 }
+
+.portfolio-container {
+  display: flex;
+}
+
+.height-adjuster {
+  height:30vh;
+}
+
+.card-body {
+}
+
+
 /* Tabs panel */
 .tabbable-panel {
   border:1px solid #eee;
